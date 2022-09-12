@@ -34,9 +34,16 @@ export class WorkExperienceComponent implements OnInit {
          { descripcion: "5 headshots seguidos"}
          ]
     };
+    let work3 = {
+      fecha: '2010-2014',
+      ubicacion: 'Orizaba, Ver.',
+      puesto: 'CEO',
+      empresa: 'ADESOFT',
+      logros: [{ descripcion: 'Construccion de software CFDi' }],
+    };
 
   this.workExperience.push(work1);
-  this.workExperience.push(work2);
+  this.workExperience.push(work2, work3);
 
   }
 
