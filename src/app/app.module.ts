@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { CertificadesComponent } from './certificades/certificades.component';
+import { IdiomaComponent } from './idioma/idioma.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     WorkExperienceComponent,
-    CertificadesComponent
+    CertificadesComponent,
+    IdiomaComponent
   ],
   imports: [
     BrowserModule
