@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { CertificadesComponent } from './certificades/certificades.component';
 import { IdiomaComponent } from './idioma/idioma.component';
+import { InteressComponent } from './interess/interess.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { IdiomaComponent } from './idioma/idioma.component';
     HeaderComponent,
     WorkExperienceComponent,
     CertificadesComponent,
-    IdiomaComponent
+    IdiomaComponent,
+    InteressComponent
   ],
   imports: [
     BrowserModule
